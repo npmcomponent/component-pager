@@ -1,5 +1,5 @@
 {
-  "name": "pager-component",
+  "name": "component-pager",
   "description": "Pager ui component",
   "version": "0.1.0",
   "keywords": [
@@ -8,21 +8,11 @@
     "paginate",
     "pagination"
   ],
+  "styles": [
+    "pager.css"
+  ],
   "dependencies": {
-    "emitter-component": "*",
-    "dom-component": "*"
-  },
-  "component": {
-    "scripts": {
-      "pager/index.js": "index.js",
-      "pager/template.js": "template.js"
-    },
-    "styles": [
-      "pager.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/pager.git"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-dom": "git://github.com/npmcomponent/component-dom.git"
   }
 }

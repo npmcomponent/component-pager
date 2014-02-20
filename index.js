@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
+var Emitter = require('component-emitter')
   , html = require('./template')
-  , dom = require('dom');
+  , dom = require('component-dom');
 
 /**
  * Expose `Pager`.
